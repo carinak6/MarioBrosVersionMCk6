@@ -1,0 +1,47 @@
+.principal{
+	width: 1300px; /*100%;*/
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../img/fond2.jpg');
+  background-repeat: no-repeat; 
+  background-position: left bottom;
+  z-index: 10;
+  margin: 0 auto;
+}	
+
+#mario{
+	position: absolute;
+    bottom: 74px;
+    z-index: 100;    
+}
+
+#mechant1{
+  position: absolute;
+  bottom: 74px;
+  width: 56px;
+  left: 400px;
+  z-index: 80;
+}
+
+#intro, #message, #aurevoir{
+  position: absolute;
+}
+
+#saute,#colis, #message, #aurevoir{
+  display: none;
+}
+
+#aurevoir{
+  top:20%;
+  left:20%;
+  z-index: 100; 
+}
+
+#message{
+  z-index: 9999;
+  top:20%;
+  left: 40%;
+  text-align: center;
+  font-size: 24px;
+}
